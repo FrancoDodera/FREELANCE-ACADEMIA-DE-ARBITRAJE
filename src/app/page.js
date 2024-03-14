@@ -48,7 +48,7 @@ export default function Home() {
               Agregrar gratiuitamente una asesoria
             </span>
           </h2>
-          <div>
+          <div className={styles.calendly}>
             <div
               className="calendly-inline-widget"
               data-url="https://calendly.com/francocarre/asesoria-gratuita-arbitraje-financiero?month=2024-03"
