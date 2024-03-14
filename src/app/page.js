@@ -44,11 +44,12 @@ export default function Home() {
           <h2 className={styles.text}>
             SI QUERES darle un giro de 180 grados a tu{" "}
             <span className={styles.highlight}>economia</span> y lograr
-            finalmente tener un ingreso en DOLARES, esto es para vos. Te quiero
-            compartir desde lo mas básico hasta las estrategias mas avanzadas
-            que yo mismo utilicé para pasar de{" "}
+            finalmente tener un ingreso en DOLARES, esto es para vos.
+            <br />
+            Te quiero compartir desde lo mas básico hasta las estrategias mas
+            avanzadas que yo mismo utilicé para pasar de{" "}
             <span className={styles.highlight}>
-              $3000 A $200000 en 12 meses
+              3.000 USD A 200.000 USD en 12 meses
             </span>{" "}
             y que te van a PERMITIR a vos tener los mismos resultados operando
             con total seguridad y sin{" "}
@@ -73,7 +74,24 @@ export default function Home() {
               ></div>
             </div>
           </div>
-          <h3>wpp</h3>
+          <h2 className={styles.h2}>
+            Si tenes alguna duda o consulta, escribinos!
+            <div className={styles.contacto}>
+              <br />
+              <img
+                className={styles.whatsapp_img}
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png"
+                alt="WhatsApp"
+              ></img>
+              <a
+                className={styles.whatsapp}
+                href="https://wa.me/tunumerodetelefono?text=Hola,%20estoy%20interesado%20en%20tu%20producto"
+                target="_blank"
+              >
+                Abrir Chat de WhatsApp
+              </a>
+            </div>
+          </h2>
         </div>
         <footer className={styles.footer}>
           <h4>©2024 | ArbaAcademy</h4>
