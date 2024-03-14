@@ -10,7 +10,6 @@ export default function Home() {
     script.src = "https://assets.calendly.com/assets/external/widget.js";
     script.async = true;
     document.body.appendChild(script);
-
     return () => {
       document.body.removeChild(script);
     };
@@ -48,12 +47,17 @@ export default function Home() {
               Agregrar gratiuitamente una asesoria
             </span>
           </h2>
-          <div className={styles.calendly}>
-            <div
-              className="calendly-inline-widget"
-              data-url="https://calendly.com/francocarre/asesoria-gratuita-arbitraje-financiero?month=2024-03"
-              style={{ width: "1000px", height: "700px" }}
-            ></div>
+          <div className={styles.calendly_container}>
+            <div className={styles.calendly}>
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/francocarre/asesoria-gratuita-arbitraje-financiero?month=2024-03"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                }}
+              ></div>
+            </div>
           </div>
           <h3>wpp</h3>
         </div>
