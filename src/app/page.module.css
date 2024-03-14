@@ -11,7 +11,17 @@
   margin-left: 40px;
   margin-right: 40px;
 }
-
+.video {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.video_container {
+  width: 900px;
+  height: 500px;
+}
 .h1,
 .h2,
 .text {
@@ -68,6 +78,10 @@
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
+  }
+  .video_container {
+    width: 300px;
+    height: 400px;
   }
   .calendly {
     display: block;

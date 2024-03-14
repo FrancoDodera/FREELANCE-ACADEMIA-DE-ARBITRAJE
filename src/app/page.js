@@ -30,7 +30,17 @@ export default function Home() {
             nadie está hablando que te va a permitir generar TUS PROPIOS $1000
             USD este 2024
           </h2>
-
+          <div className={styles.video}>
+            <div className={styles.video_container}>
+              <iframe
+                src="https://drive.google.com/file/d/17HOm3qs0SVGEWt7-XP_oCEFzydQPTRYG/preview"
+                width="100%"
+                height="100%"
+                allow="autoplay"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
           <h2 className={styles.text}>
             SI QUERES darle un giro de 180 grados a tu{" "}
             <span className={styles.highlight}>economia</span> y lograr
