@@ -46,15 +46,19 @@ export default function Home() {
             <span className={styles.highlight}>economia</span> y lograr
             finalmente tener un ingreso en DOLARES, esto es para vos. Te quiero
             compartir desde lo mas básico hasta las estrategias mas avanzadas
-            que yo mismo utilicé para pasar de $x a $x en x meses y que te van a
-            PERMITIR a vos tener los mismos resultados operando con total
-            seguridad y sin{" "}
+            que yo mismo utilicé para pasar de{" "}
+            <span className={styles.highlight}>
+              $3000 A $200000 en 12 meses
+            </span>{" "}
+            y que te van a PERMITIR a vos tener los mismos resultados operando
+            con total seguridad y sin{" "}
             <span className={styles.highlight}>NINGUN TIPO DE RIESGO</span> en
             el mondo del arbitraje cripto
           </h2>
           <h2 className={styles.h2}>
             <span className={styles.highlight}>
-              Agregrar gratiuitamente una asesoria
+              AGENDA GRATUITAMENTE UNA ASESORIA
+              <h1 className={styles.flecha}>⬇</h1>
             </span>
           </h2>
           <div className={styles.calendly_container}>

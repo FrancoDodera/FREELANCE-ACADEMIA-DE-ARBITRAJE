@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Base styles (apply to all screen sizes) */
 .main {
   display: flex;
   flex-direction: column;
@@ -62,12 +61,15 @@
   align-items: stretch;
   justify-content: center;
   text-align: center;
+  margin-top: -90px;
 }
 .calendly {
   width: 1000px;
   height: 700px;
 }
-
+.flecha {
+  margin-top: 0;
+}
 /* Styles for screens smaller than 768px */
 @media (max-width: 768px) {
   .main {
@@ -80,8 +82,8 @@
     margin-right: 5px;
   }
   .video_container {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
   }
   .calendly {
     display: block;
@@ -90,6 +92,7 @@
     text-align: center;
     width: 300px;
     height: 400px;
+    margin-top: 80px;
   }
 
   .h1,
