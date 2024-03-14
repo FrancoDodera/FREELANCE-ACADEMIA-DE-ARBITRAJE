@@ -19,6 +19,11 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <div className={styles.container}>
+          <img
+            className={styles.logo}
+            src="/logo.webp"
+            alt="Descripción de la imagen"
+          />
           <h1 className={styles.h1}>
             GANÁ TUS PRIMEROS <span className={styles.highlight}> 1.000</span>{" "}
             USD CON <span className={styles.highlight}> ARBITRAJE</span>
@@ -27,8 +32,12 @@ export default function Home() {
             Ni Marketing, ni Amazon FBA, ni Dropshipping, ni Appointment
             Setting. Arbitraje Financiero: la{" "}
             <span className={styles.highlight}> NUEVA HABILIDAD</span> de la que
-            nadie está hablando que te va a permitir generar TUS PROPIOS $1000
-            USD este 2024
+            nadie está hablando que te va a permitir generar <br />
+            <span className={styles.highlight}>
+              {" "}
+              TUS PRIMEROS $1000 USD
+            </span>{" "}
+            este 2024
           </h2>
           <div className={styles.video}>
             <div className={styles.video_container}>
@@ -54,7 +63,7 @@ export default function Home() {
             y que te van a PERMITIR a vos tener los mismos resultados operando
             con total seguridad y sin{" "}
             <span className={styles.highlight}>NINGUN TIPO DE RIESGO</span> en
-            el mondo del arbitraje cripto
+            el mundo del arbitraje cripto
           </h2>
           <h2 className={styles.h2}>
             <span className={styles.highlight}>
@@ -96,6 +105,11 @@ export default function Home() {
         <footer className={styles.footer}>
           <h4>©2024 | ArbaAcademy</h4>
         </footer>
+        <img
+          className={styles.logo}
+          src="/logo.webp"
+          alt="Descripción de la imagen"
+        />
       </main>
     </>
   );
