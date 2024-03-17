@@ -94,7 +94,7 @@ export default function Home() {
               ></img>
               <a
                 className={styles.whatsapp}
-                href="https://wa.me/tunumerodetelefono?text=Hola,%20estoy%20interesado%20en%20tu%20producto"
+                href="https://api.whatsapp.com/send?phone=541137689102"
                 target="_blank"
               >
                 Abrir Chat de WhatsApp
